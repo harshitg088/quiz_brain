@@ -41,7 +41,6 @@ class _QuizPageState extends State<QuizPage> {
           title: 'Finished!',
           desc: 'You\'ve reached the end of the quiz.',
         ).show();
-,
         quizBrain.reset();
         scoreKeeper = [];
       }
@@ -99,7 +98,6 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
-                //The user picked true.
                 checkAnswer(true);
               },
             ),
@@ -118,7 +116,6 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
-                //The user picked false.
                 checkAnswer(false);
               },
             ),
