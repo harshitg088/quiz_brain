@@ -1,4 +1,4 @@
-# Quizzler
+# QUIZZLER
 
 Quizzler is a quiz app that tests your general knowledge.
 Try it out you will love it.
